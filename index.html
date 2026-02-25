@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olomuodon muutokset</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Veden olomuodon muutokset</h1>
+      <p>
+        Tällä sivulla voit tutkia, mitä tapahtuu veden olomuodon muuttuessa ja
+        miten lämpöenergia siirtyy.
+      </p>
+    </header>
+
+    <main>
+      <section aria-labelledby="valitse-muutos">
+        <h2 id="valitse-muutos">Valitse olomuodon muutos</h2>
+        <nav aria-label="Olomuodon muutokset">
+          <a href="#" id="sulaminen" role="button">Sulaminen</a>
+          <a href="#" id="jahmettyminen" role="button">Jähmettyminen</a>
+          <a href="#" id="hoyrystyminen" role="button">Höyrystyminen</a>
+        </nav>
+      </section>
+
+      <section aria-live="polite">
+        <h2>Selitys</h2>
+        <p id="tulos">Paina linkkiä nähdäksesi selityksen.</p>
+      </section>
+    </main>
+
+    <footer>
+      <small>Web-ohjelmointi & lämpöoppi</small>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
